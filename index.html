@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <title>YasserTry</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="//unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="//unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+</head>
+<header id="header">
+    <nav>
+        <ul>
+            <li><a href="/index.html">Home Page</a></li>
+            <li id="theone">
+                <a href="/def.html">Renewable energies?</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Definition</a></li>
+                    <li><a href="#">Definition</a></li>
+                </ul>
+            </li>
+            <li id="datwo"><a href="/graphs.html">Graphs</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Definition</a></li>
+                    <li><a href="#">Definition</a></li>
+                </ul>
+            </li>
+            <li id="dathree"><a href="/help.html">Help us</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Definition</a></li>
+                    <li><a href="#">Definition</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <div class="ys">
+        <div id="photo" style="padding-top: 2%;">
+            <div>
+                <h1>Welcome to our website !</h1>
+                <p>This website has been made by Yasser Razzaki in cooperation with my mates in the group no°10.
+                    <br>It's topic is promoting the renewable energies, so as we can sensitize more people, especially young ones.
+                    <br> Hope that you'll like it! Have a good browsing!
+                </p>
+            </div>
+            <div>
+                <h1>Définition des énergies renouvellables</h1>
+                <p>Une énergie est dite renouvelable lorsqu'elle provient de sources que la nature renouvelle en permanence, par opposition à une énergie non renouvelable dont les stocks s'épuisent. <br> Les énergies renouvelables proviennent de 2 grandes
+                    sources naturelles : le Soleil (à l'origine du cycle de l'eau, des marées, du vent et de la croissance des végétaux) et la Terre (qui dégage de la chaleur). <br> Surnommées « énergies propres » ou « énergies vertes », leur exploitation
+                    engendre très peu de déchets et d'émissions polluantes mais leur pouvoir énergétique est beaucoup plus faible que celui des énergies non renouvelables. <br> De 2000 mètres d'altitude à 2000 mètres sous terre, découvrez quelques unes
+                    des énergies renouvelables.
+                </p>
+            </div>
+
+
+            <div>
+                <h1>Les 5 familles énergies renouvellables</h1>
+                <p>Fournies par le soleil, le vent, la chaleur de la terre, les chutes d’eau, les marées ou encore la croissance des végétaux, les énergies renouvelables n’engendrent pas ou peu de déchets ou d’émissions polluantes. <br> Elles participent
+                    à la lutte contre l’effet de serre et les rejets de CO2 dans l’atmosphère, facilitent la gestion raisonnée des ressources locales, génèrent des emplois. <br> Le solaire (solaire photovoltaïque, solaire thermique), l’hydroélectricité,
+                    l’éolien, la biomasse, la géothermie sont des énergies flux inépuisables par rapport aux « énergies stock » tirées des gisements de combustibles fossiles en voie de raréfaction : pétrole, charbon, lignite, gaz naturel. <br> Entrez
+                    dans l’univers des énergies renouvelables : Quelles sources d’énergies ? Pour quels besoins ? Comment les capter, les transformer ? Sous quelle forme les utiliser ?
+                </p>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $('#photo').slick({
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: true,
+                fade: true,
+                autoplay: true,
+                infinite: true,
+                autoplaySpeed: 500
+            });
+        </script>
+        <script src="//d3js.org/d3.v7.min.js"></script>
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+        <script src="//unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</body>
+<footer class="footer">
+    <div class="container">
+        <p>© Conceived Website By Yasser Razzaki</p>
+        <div class="row">
+            <div class="footer-col">
+                <h4>Website's sections: </h4>
+                <ul>
+                    <li><a href="/graphs.html">Home Page</a></li>
+                    <li><a href="/def.html">Renewable Energies?</a></li>
+            </div>
+            <div class="footer-col">
+                <h4>Help and details:</h4>
+                <ul>
+                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="/help.html">About us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow us on:</h4>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/yasser_razzaki" target="_blank"><img src="insta.png" style="height: 100px; width: 100px;"><i class="instagramY"></i></a>
+                    <a href="https://www.facebook.com/yasser.raz" target="_blank"><img src="fb.png" style="height: 100px; width: 100px;"><i class="instagramK0"></i></a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/yasserRazzaki" target="_blank"><img src="linkedin.png" style="height: 100px; width: 100px;"><i class="instagramY"></i></a>
+                    <a href="https://twitter.com/YasserRazzaki" target="_blank"><img src="twitter.jpg" style="height: 100px; width: 100px;"><i class="instagramK0"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>
